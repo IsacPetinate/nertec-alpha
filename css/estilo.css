@@ -6,6 +6,7 @@
 
 body
 {
+    background-color: rgb(239, 247, 249);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -16,7 +17,7 @@ body
 
 .conteudo-principal
 {
-    padding: 30px;
+    padding: 10%;
     text-align: center;
 }
 
