@@ -14,13 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <!-- Tags Link de Folha de Estilo -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="icon" href="img/nertec.png">
+    <link rel="stylesheet" href="css/efeitos.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon"       href="img/nertec.png">
     <!-- Scripts em JS e jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <!-- Corpo começa aqui -->
 
@@ -56,21 +57,28 @@
         </header>
         <!-- Estrutura Central -->
         <div class="row conteudo-principal" role="main">
+            <!-- Script do -->
             <!-- Divisão da Seção de Destaques -->
             <div class="row">
-                <div class="col-xs-4 materias"><a href="materias.html"><img src="icons/materias.png" width="70%"><br><h3>Matérias</h3></a></div>
-                <div class="col-xs-4 equipe"><a href="equipe.html"><img src="icons/equipe.png" width="70%"><br><h3>Equipe</h3></a></div>
-                <div class="col-xs-4 parcerias"><a href="parceiros.html"><img src="icons/app.png" width="70%"><br><h3>Parceiros</h3></a></div>
-            </div><br>
-            <!-- Divisão do BLoco de Links -->
-            <div class="row">
-                <div class="col-xs-2">ios</div>
-                <div class="col-xs-2">android</div>
-                <div class="col-xs-2">jogos</div>
-                <div class="col-xs-2">windows</div>
-                <div class="col-xs-2">mac os x</div>
-                <div class="col-xs-2">linux</div>
-            </div><br><br>
+                <div class="col-xs-4 materias"><a href="materias.html"><img src="icons/materias.png" width="70%"><br><button type="button" class="btn btn-primary btn-md">Matérias</button></a></div>
+                <div class="col-xs-4 equipe"><a href="equipe.html"><img src="icons/equipe.png" width="70%"><br><button type="button" class="btn btn-primary btn-md">Equipe</button></a></div>
+                <div class="col-xs-4 parcerias"><a href="parceiros.html"><img src="icons/app.png" width="70%"><br><button type="button" class="btn btn-primary btn-md">Parceiros</button></a></div>
+            </div><hr>
+            <!-- Script do Hoover Tooltip no Bloco de Links -->
+            <script>
+                $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+                });
+            </script>
+            <!-- Divisão do Bloco de Links -->
+            <div class="row links">
+                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="iOS"><img src="icons/ios.png" width="70%"></a></div>
+                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Android"><img src="icons/android.ico" class="img-circle zoom" width="70%"></a></div>
+                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Jogos"><img src="icons/gamepad.png" width="70%"></a></div>
+                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Windows"><img src="icons/windows.png" width="70%"></a></div>
+                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Mac OS X"><img src="icons/osx.png" width="70%"></a></div>
+                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Linux"><img src="icons/linux.png" width="70%"></a></div>
+            </div><hr><br>
             <!-- Divisão da Seção de Apresentação do Bloco de Conteúdo-->
             <div class="row">
                 <!-- Aqui aparecerá as últimas postagens e as postagens mais antigas, em ordem por data de postagem -->
@@ -83,7 +91,7 @@
         <footer>
             <div class="row rodape">
                 <!-- Direitos Reservados -->
-                <div class="col-xs-4">Ⓒ NERTEC 2018 - All right reserved</div>
+                <div class="col-xs-4">Ⓒ NERTEC 2018</div>
                 <!-- Espaço para Divisão de Conteúdo - Se necessário por algo aqui -->
                 <div class="col-xs-4"> <!-- nada aqui por enquanto--></div>
                 <!-- Ícones de Redes Sociais -->
