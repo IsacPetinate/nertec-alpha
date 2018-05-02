@@ -7,18 +7,23 @@
 body
 {
     background-color: rgb(239, 247, 249);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .barra-superior
 {
-    
+    font-family: 'Orbitron', sans-serif;
 }
 
 .conteudo-principal
 {
     padding: 10% 5% 0% 5%;
     text-align: center;
+}
+
+.destaque
+{
+    font-family: 'Orbitron', sans-serif;
 }
 
 .links
@@ -41,11 +46,16 @@ body
 
 .rodape
 {
-    box-shadow: 0px 6px 5px 0px grey;
-    bottom: 0;
-    width: 100%;
+    box-shadow: 0px 5px 5px 1px dimgray;
     color: cyan;
     padding-top: 5px;
     height: 35px;
-    background-color: black;
+    background-color: rgb(0,0,0);
+    font-family: 'Orbitron', sans-serif;
 }
+
+/*
+font-family: 'Kanit', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Orbitron', sans-serif;
+*/
