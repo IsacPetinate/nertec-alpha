@@ -59,12 +59,12 @@
         <div class="row conteudo-principal" role="main">
             <!-- Script do -->
             <!-- Divisão da Seção de Destaques -->
-            <div class="row">
-                <div class="col-xs-4 materias"><a href="materias.html"><img src="icons/materias.png" width="70%"><br><button type="button" class="btn btn-primary btn-md">Matérias</button></a></div>
-                <div class="col-xs-4 equipe"><a href="equipe.html"><img src="icons/equipe.png" width="70%"><br><button type="button" class="btn btn-primary btn-md">Equipe</button></a></div>
-                <div class="col-xs-4 parcerias"><a href="parceiros.html"><img src="icons/app.png" width="70%"><br><button type="button" class="btn btn-primary btn-md">Parceiros</button></a></div>
+            <div class="row destaque">
+                <div class="col-sm-4 col-xs-4 col-md-4 materias"><a href="materias.html"><img src="icons/materias.png" width="50%"><br><h4>Matérias</h4></a></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 equipe"><a href="equipe.html"><img src="icons/equipe.png" width="50%"><br><h4>Equipe</h4></a></div>
+                <div class="col-xs-4 col-sm-4 col-md-4 parcerias"><a href="parceiros.html"><img src="icons/app.png" width="50%"><br><h4>Parceiros</h4></a></div>
             </div><hr>
-            <!-- Script do Hoover Tooltip no Bloco de Links -->
+            <!-- Script do Tooltip no Bloco de Links -->
             <script>
                 $(document).ready(function(){
                 $('[data-toggle="tooltip"]').tooltip();   
@@ -72,38 +72,75 @@
             </script>
             <!-- Divisão do Bloco de Links -->
             <div class="row links">
-                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="iOS"><img src="icons/ios.png" width="70%"></a></div>
-                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Android"><img src="icons/android.ico" class="img-circle zoom" width="70%"></a></div>
-                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Jogos"><img src="icons/gamepad.png" width="70%"></a></div>
-                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Windows"><img src="icons/windows.png" width="70%"></a></div>
-                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Mac OS X"><img src="icons/osx.png" width="70%"></a></div>
-                <div class="col-xs-2"><a href="#" data-toggle="tooltip" title="Linux"><img src="icons/linux.png" width="70%"></a></div>
+                <div class="col-xs-4 col-md-2"><a href="#" data-toggle="tooltip" title="iOS"><img src="icons/ios.png" width="50%"></a></div>
+                <div class="col-xs-4  col-md-2"><a href="#" data-toggle="tooltip" title="Android"><img src="icons/android.ico" class="img-circle zoom" width="50%"></a></div>
+                <div class="col-xs-4  col-md-2"><a href="#" data-toggle="tooltip" title="Jogos"><img src="icons/gamepad.png" width="50%"></a></div>
+                <div class="col-xs-4  col-md-2"><a href="#" data-toggle="tooltip" title="Windows"><img src="icons/windows.png" width="50%"></a></div>
+                <div class="col-xs-4  col-md-2"><a href="#" data-toggle="tooltip" title="Mac OS X"><img src="icons/osx.png" width="50%"></a></div>
+                <div class="col-xs-4  col-md-2"><a href="#" data-toggle="tooltip" title="Linux"><img src="icons/linux.png" width="50%"></a></div>
             </div><hr><br>
             <!-- Divisão da Seção de Apresentação do Bloco de Conteúdo-->
-            <div class="row">
+            <div class="row postagens">
                 <!-- Aqui aparecerá as últimas postagens e as postagens mais antigas, em ordem por data de postagem -->
-                <div class="col-xs-8">conteudo da barra da esquerda</div>
+                <div id="esquerda" class="col-md-8 col-xs-12">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <br>
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <br>
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                    <img src="icons/kde.png">
+                </div>
                 <!-- Conteúdo lateral, espera-se um script php para atualizaçoes aqui -->
-                <div class="col-xs-4">conteudo da barra estreita a direita</div>
-            </div>
-        </div>
-        <!-- Rodapé começa aqui -->
-        <footer>
-            <div class="row rodape">
-                <!-- Direitos Reservados -->
-                <div class="col-xs-4">Ⓒ NERTEC 2018</div>
-                <!-- Espaço para Divisão de Conteúdo - Se necessário por algo aqui -->
-                <div class="col-xs-4"> <!-- nada aqui por enquanto--></div>
-                <!-- Ícones de Redes Sociais -->
-                <div class="col-xs-4">
-                    <span class="glyphicon glyphicon-rss"></span>
-                    <img src="icons/feed.ico" height="40">
-                    <img src="icons/face.ico" height="40">
-                    <img src="icons/twitter.ico" height="40">
-                    <img src="icons/yt.ico" height="40">
+                <div id="direita" class="col-md-4 col-xs-12">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">Panel with panel-default class</div>
+                          <div class="panel-body">Panel Content</div>
+                        </div>
+
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Panel with panel-primary class</div>
+                          <div class="panel-body">Panel Content</div>
+                        </div>
+
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Panel with panel-success class</div>
+                          <div class="panel-body">Panel Content</div>
+                        </div>
+
+                        <div class="panel panel-info">
+                          <div class="panel-heading">Panel with panel-info class</div>
+                          <div class="panel-body">Panel Content</div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        <!-- Espaço do Rodapé -->
+        <br><br><br>
+        <!-- Rodapé começa aqui -->
+        <div class="row rodape">
+            <!-- Direitos Reservados -->
+            <div class="col-xs-4 col-md-4">Ⓒ NERTEC 2018</div>
+            <!-- Espaço para Divisão de Conteúdo - Se necessário por algo aqui -->
+            <div class="col-xs-4 col-md-4"> <!-- nada aqui por enquanto--></div>
+            <!-- Ícones de Redes Sociais -->
+            <div class="col-xs-4 col-md-4">
+                <span class="glyphicon glyphicon-rss"></span>
+                <img src="icons/feed.ico" height="40">
+                <img src="icons/face.ico" height="40">
+                <img src="icons/twitter.ico" height="40">
+                <img src="icons/yt.ico" height="40">
+            </div>
+        </div>
     </div>
 </body>
 <html>

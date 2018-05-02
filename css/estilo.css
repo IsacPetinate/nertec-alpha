@@ -17,7 +17,7 @@ body
 
 .conteudo-principal
 {
-    padding: 10%;
+    padding: 10% 5% 0% 5%;
     text-align: center;
 }
 
@@ -26,14 +26,26 @@ body
     // background-color: rgb(250, 250, 250);
 }
 
+/*
+#direita
+{
+    background-color: darkgray;
+}
+
+#esquerda
+{
+    background-color: darkgray;
+    border-spacing: 10%;
+}
+*/
+
 .rodape
 {
     box-shadow: 0px 6px 5px 0px grey;
-    position: absolute;
     bottom: 0;
     width: 100%;
     color: cyan;
     padding-top: 5px;
-    height: 30px;
+    height: 35px;
     background-color: black;
 }
