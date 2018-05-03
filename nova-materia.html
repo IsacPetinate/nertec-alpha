@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!--
+# Front-end desenvolvido por Isac Petinate
+# Data: 01/05/2018 - - 02:30h
+# Licença: Este código é proprietário do detentores de direito do Nertec, e não devem ser utilizados sem autorização.
+-->
+
+<html lang="pt-br">
+
+<head>
+    <title>NERTEC - Nerd Tecnológico</title>
+    <!-- Tags Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- Tags Link de Folha de Estilo -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Orbitron|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="css/efeitos.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon"       href="img/nertec.png">
+    <!-- Scripts em JS e jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<!-- Corpo começa aqui -->
+
+<body>
+    <div class="container-fluid">
+        <!-- Cabeçalho -->
+        <header class="row barra-superior">
+            <nav class="navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                        <a class="logo" href="index.html"><img src="img/nertec.png" height="50"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Página Inicial</a></li>
+                            <li><a href="materias.html">Matérias</a></li>
+                            <li><a href="sobre.html">Suporte</a></li>
+                            <li><a href="equipe.html">Equipe</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Estrutura Central -->
+        <br><br><br>
+        <!-- -->
+        <script src="js/tinymce/tinymce.min.js"></script>
+        <script>tinymce.init({ selector:'textarea' });</script>
+
+        <textarea>Olá, escreva uma bela máteria, mal posso esperar, para ser seu editor online preferido...</textarea>
+        <!-- -->
+        <br>
+        <!-- -->
+        <p align="center">
+            <button id="postar" type="button" class="btn btn-primary">Postar Matéria</button>
+            <button id="rascunho" type="button" class="btn btn-primary">Salvar como Rascunho</button>
+            <button id="visualizar" type="button" class="btn btn-primary">Pré Visualizar</button>
+        </p>
+        <!-- Espaço do Rodapé -->
+        <br><br><br>
+        <!-- Rodapé começa aqui -->
+        <div class="row rodape">
+            <!-- Direitos Reservados -->
+            <div class="col-xs-12 col-md-4">Ⓒ NERTEC 2018</div>
+            <!-- Espaço para Divisão de Conteúdo - Se necessário por algo aqui -->
+            <div class="col-xs-12 col-md-4"><p><a href="faq.html">FAQ</a> | <a href="termos.html">Termos</a> | <a href="donate.html">Doações</a></p></div>
+            <!-- Ícones de Redes Sociais -->
+            <div class="col-xs-12 col-md-4">
+                <span class="glyphicon glyphicon-rss"></span>
+                <a href=""><img src="icons/feed.ico" height="40" data-toggle="tooltip" title="Feed RSS"></a>
+                
+                <a type="mail" href="mailto:contato@nertec.com.br"><img src="icons/mail.ico" height="40" data-toggle="tooltip" title="Contato"></a>
+                
+                <a target="_blank" href="https://www.facebook.com/nertec"><img src="icons/face.ico" height="40" data-toggle="tooltip" title="Nertec no Facebook"></a>
+                
+                <a target="_blank" href="https://www.instagram.com/nerdtec/"><img src="icons/insta.ico" height="40" data-toggle="tooltip" title="Nerdtec no Instagram"></a>
+                
+                <a target="_blank" href="https://twitter.com/nertec_nt"><img src="icons/twitter.ico" height="40" data-toggle="tooltip" title="@Nertec_NT no Twitter"></a>
+                
+                <a target="_blank" href="https://www.youtube.com/channel/UC6sLupncz-aSH1DUIjsi7dQ"><img src="icons/youtube.ico" height="40" data-toggle="tooltip" title="Canal do Nertec"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<html>
