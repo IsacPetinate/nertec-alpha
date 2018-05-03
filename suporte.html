@@ -9,7 +9,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>NERTEC - Nerd Tecnológico</title>
+    <title>Suporte - NERTEC</title>
     <!-- Tags Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -41,9 +41,9 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Página Inicial</a></li>
+                            <li><a href="index.html">Página Inicial</a></li>
                             <li><a href="materias.html">Matérias</a></li>
-                            <li><a href="suporte.html">Suporte</a></li>
+                            <li class="active"><a href="suporte.html">Suporte</a></li>
                             <li><a href="equipe.html">Equipe</a></li>
                             <li><a href="sobre.html">Sobre</a></li>
                         </ul>
@@ -55,7 +55,51 @@
         <!-- Estrutura Central -->
         <br><br><br>
         <!-- Conteúdo Após esse Comentário -->
-        
+                    <!-- Script do Tooltip no Bloco de Links -->
+            <script>
+                $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+                });
+            </script>
+            <!-- Divisão do Bloco de Links -->
+            <div class="row links">
+                <div class="col-xs-4 col-md-2">
+                    <a href="#" data-toggle="tooltip" title="iOS">
+                        <img src="icons/ios.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Android">
+                        <img src="icons/android.ico" class="img-circle zoom" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Jogos">
+                        <img src="icons/gamepad.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Windows">
+                        <img src="icons/windows.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Mac OS X">
+                        <img src="icons/osx.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Linux">
+                        <img src="icons/linux.png" width="40%">
+                    </a>
+                </div>
+            </div>
+            <!-- Breakline -->
+            <hr><br>
+        <!-- Abaixo serao mostradas as materias em ordenadas por data -->
+        <div class="row">
+            
+        </div>
         <!-- Espaço do Rodapé -->
         <br><br><br>
         <!-- Rodapé começa aqui -->

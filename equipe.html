@@ -1,12 +1,184 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Untitled Document</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-</head>
-<body>
 
+<!--
+# Front-end desenvolvido por Isac Petinate
+# Data: 01/05/2018 - - 02:30h
+# Licença: Este código é proprietário do detentores de direito do Nertec, e não devem ser utilizados sem autorização.
+-->
+
+<html lang="pt-br">
+
+<head>
+    <title>Equipe - NERTEC</title>
+    <!-- Tags Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- Tags Link de Folha de Estilo -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Orbitron|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="css/efeitos.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon"       href="img/nertec.png">
+    <!-- Scripts em JS e jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<!-- Corpo começa aqui -->
+
+<body>
+    <div class="container-fluid">
+        <!-- Cabeçalho -->
+        <header class="row barra-superior">
+            <nav class="navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                        <a class="logo" href="index.html"><img src="img/nertec.png" height="50"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Página Inicial</a></li>
+                            <li><a href="materias.html">Matérias</a></li>
+                            <li><a href="suporte.html">Suporte</a></li>
+                            <li class="active"><a href="equipe.html">Equipe</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Estrutura Central -->
+        <br><br><br>
+        <!-- Conteúdo Após esse Comentário -->
+                    <!-- Script do Tooltip no Bloco de Links -->
+            <script>
+                $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+                });
+            </script>
+            <!-- Divisão do Bloco de Links -->
+            <div class="row links">
+                <div class="col-xs-4 col-md-2">
+                    <a href="#" data-toggle="tooltip" title="iOS">
+                        <img src="icons/ios.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Android">
+                        <img src="icons/android.ico" class="img-circle zoom" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Jogos">
+                        <img src="icons/gamepad.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Windows">
+                        <img src="icons/windows.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Mac OS X">
+                        <img src="icons/osx.png" width="40%">
+                    </a>
+                </div>
+                <div class="col-xs-4  col-md-2">
+                    <a href="#" data-toggle="tooltip" title="Linux">
+                        <img src="icons/linux.png" width="40%">
+                    </a>
+                </div>
+            </div>
+            <!-- Breakline -->
+            <hr><br>
+        <!-- Abaixo serao mostradas as materias em ordenadas por data -->
+        <div class="row">
+            <h1 id="titulo">Conheça Nossa Equipe...</h1>
+                <hr>
+            <div class="col-md-4"><!-- Somente para organização do conteúdo--></div>
+            <div id="equipe" class="col-md-6 col-xs-12" align="center">
+                <div class="row">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/nertec.png" class="media-object" style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Isac Petinate</h4>
+                            <p>Especialidade: Programação e Desenvolvimento Web
+                            <br>Informações: Fundador e Idealizador do Projeto</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/nertec.png" class="media-object" style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Kevin Martins</h4>
+                            <p>Especialidade: Web Designer e Desenhista
+                            <br>Informações: Fundador do Projeto</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/nertec.png" class="media-object" style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Daniel Andrade</h4>
+                            <p>Especialidade: Hardware, Android e Sistemas Microsoft
+                            <br>Informações: Membro Inicial do Projeto</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="img/nertec.png" class="media-object" style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Samuel Silva</h4>
+                            <p>Especialidade: Programação, Linux e Segurança da Informação
+                            <br>Informações: Membro Inicial do Projeto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Espaço do Rodapé -->
+        <br><br><br>
+        <!-- Rodapé começa aqui -->
+        <div class="row rodape">
+            <!-- Direitos Reservados -->
+            <div class="col-xs-12 col-md-4">Ⓒ NERTEC 2018</div>
+            <!-- Espaço para Divisão de Conteúdo - Se necessário por algo aqui -->
+            <div class="col-xs-12 col-md-4"><p><a href="faq.html">FAQ</a> | <a href="termos.html">Termos</a> | <a href="donate.html">Doações</a></p></div>
+            <!-- Ícones de Redes Sociais -->
+            <div class="col-xs-12 col-md-4">
+                <span class="glyphicon glyphicon-rss"></span>
+                <a href=""><img src="icons/feed.ico" height="40" data-toggle="tooltip" title="Feed RSS"></a>
+                
+                <a type="mail" href="mailto:contato@nertec.com.br"><img src="icons/mail.ico" height="40" data-toggle="tooltip" title="Contato"></a>
+                
+                <a target="_blank" href="https://www.facebook.com/nertec"><img src="icons/face.ico" height="40" data-toggle="tooltip" title="Nertec no Facebook"></a>
+                
+                <a target="_blank" href="https://www.instagram.com/nerdtec/"><img src="icons/insta.ico" height="40" data-toggle="tooltip" title="Nerdtec no Instagram"></a>
+                
+                <a target="_blank" href="https://twitter.com/nertec_nt"><img src="icons/twitter.ico" height="40" data-toggle="tooltip" title="@Nertec_NT no Twitter"></a>
+                
+                <a target="_blank" href="https://www.youtube.com/channel/UC6sLupncz-aSH1DUIjsi7dQ"><img src="icons/youtube.ico" height="40" data-toggle="tooltip" title="Canal do Nertec"></a>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
+<html>
