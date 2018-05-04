@@ -1,0 +1,41 @@
+# nertec-alpha
+Projeto do Nertec.com.br
+Este projeto tem como base todos os codigos de desenvolvimento do site http://nertec.com.br
+Nosso código é proprietário, porém podemos liberar acesso à quem nos 
+solicitar, desde que todos da equipe entre em acordo com a lieração...
+
+O site é composto por códigos em HTML5, CSS3, JavaScript, Bootstrap 3 e PHP até o momento.
+
+Acesse nosso site, temos diversos tutoriais, e artigos interessantes sobre informática.
+
+http://nertec.com.br
+
+Se tiver alguma dúvida, curiosidade, ou quiser algum suporte da nossa equipe, entre em
+contato através do seuinte e-mail: contato@nertec.com.br
+
+
+
+                         
+                         # #
+                          #  #
+                           #   #     
+                           #    #    
+                           #     #     # #
+                 #        #       #     #  #
+                # #      #         #    #    #
+               #   #    #           #   #     #
+             #     #   #            #   #      #
+           #       # #              #  #        #
+         #        ##                ###         #
+         
+         
+         ###############         ##############
+        #               #       #              #
+        #               ########               #
+        #              #       #               #
+         #############          ###############
+         
+         
+        
+         
+         
