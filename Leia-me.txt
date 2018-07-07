@@ -2,7 +2,7 @@
 Projeto do Nertec.com.br
 Este projeto tem como base todos os codigos de desenvolvimento do site http://nertec.com.br
 Nosso código é proprietário, porém podemos liberar acesso à quem nos 
-solicitar, desde que todos da equipe entre em acordo com a lieração...
+solicitar, desde que todos da equipe entre em acordo com a liberação...
 
 O site é composto por códigos em HTML5, CSS3, JavaScript, Bootstrap 3 e PHP até o momento.
 
